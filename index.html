@@ -117,6 +117,25 @@
       justify-content: center;
       text-decoration: none;
     }
+    .social-float {
+      position: fixed;
+      width: 55px;
+      height: 55px;
+      bottom: 95px;
+      right: 22px;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 26px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+    }
+    .instagram-float { background: #C13584; }
+    .facebook-float { background: #1877F2; bottom: 165px; }
     .whatsapp-float:hover {
       background-color: #1ebe5d;
     }
@@ -141,31 +160,28 @@
   <p>Grooming a domicilio en la comodidad de tu hogar 🐶💜</p>
   <p style="font-size:1.2em; font-weight:bold;">Atención rápida por WhatsApp 📲</p>
   <a class="btn" href="https://wa.me/573227477464?text=Hola%20🐶💜%20vengo%20desde%20la%20página%20de%20La%20Mansión%20de%20Pancho%20y%20quisiera%20agendar%20un%20servicio%20de%20grooming%20a%20domicilio." target="_blank">💬 Escríbeme por WhatsApp</a>
-  <div style="margin-top:20px;">
-    <a href="https://www.instagram.com/lamansiondepancho_oficial" target="_blank" style="margin:0 10px; font-size:1.5em; color:white; text-decoration:none;">📸 Instagram</a>
-    <a href="https://www.facebook.com/lamansiondepancho.oficial" target="_blank" style="margin:0 10px; font-size:1.5em; color:white; text-decoration:none;">📘 Facebook</a>
-  </div>
+  
 </header>
 
 <section>
-  <h2>✨ Trabajos Recientes ✨</h2>
-  <p style="text-align:center">Algunos peluditos que hemos consentido con amor 🐾</p>
+  <h2>✨ Antes y Después ✨</h2>
+  <p style="text-align:center">Mira la transformación de nuestros peluditos, siempre con amor y cuidado 🐾💜</p>
   <div class="grid">
     <div class="card">
-      <img src="imagenes/perro1.jpg" alt="Grooming Cony" />
-      <p class="label">Cony · Antes / Después</p>
+      <img src="imagenes/perro1.jpg" alt="Antes Grooming Cony" />
+      <p class="label">Cony · ANTES</p>
     </div>
     <div class="card">
-      <img src="imagenes/perro2.jpg" alt="Grooming Cony" />
-      <p class="label">Cony · Antes / Después</p>
+      <img src="imagenes/perro2.jpg" alt="Después Grooming Cony" />
+      <p class="label">Cony · DESPUÉS ✨</p>
     </div>
     <div class="card">
-      <img src="imagenes/perro3.jpg" alt="Grooming Goku" />
-      <p class="label">Goku · Antes / Después</p>
+      <img src="imagenes/perro3.jpg" alt="Antes Grooming Goku" />
+      <p class="label">Goku · ANTES</p>
     </div>
     <div class="card">
-      <img src="imagenes/perro4.jpg" alt="Grooming Alejandro" />
-      <p class="label">Alejandro · Antes / Después</p>
+      <img src="imagenes/perro4.jpg" alt="Después Grooming Goku" />
+      <p class="label">Goku · DESPUÉS ✂️</p>
     </div>
   </div>
 </section>
@@ -205,20 +221,17 @@
 </section>
 
 <footer>
-  <p style="font-size:1.1em; font-weight:bold;">Síguenos en redes sociales 💜</p>
-  <p>
-    <a href="https://www.instagram.com/lamansiondepancho_oficial" target="_blank" style="color:white; text-decoration:none; margin:0 10px;">📸 Instagram</a>
-    <a href="https://www.facebook.com/lamansiondepancho.oficial" target="_blank" style="color:white; text-decoration:none; margin:0 10px;">📘 Facebook</a>
-  </p>
+  
   <p style="font-size:1.1em; font-weight:bold;">📲 Atención directa por WhatsApp</p>
   <p>322 747 7464</p>
   <a class="btn" href="https://wa.me/573227477464?text=Hola%20🐶💜%20vengo%20desde%20la%20página%20de%20La%20Mansión%20de%20Pancho%20y%20quisiera%20agendar%20un%20servicio%20de%20grooming%20a%20domicilio." target="_blank">💜 Pedir información</a>
   <p style="margin-top:15px;">La Mansión de Pancho · Grooming con amor 🐶</p>
 </footer>
 
-<a href="https://wa.me/573227477464?text=Hola%20🐶💜%20vengo%20desde%20la%20página%20de%20La%20Mansión%20de%20Pancho%20y%20quisiera%20agendar%20un%20servicio%20de%20grooming%20a%20domicilio." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
-  💬
-</a>
+<a href="https://www.instagram.com/lamansiondepancho_oficial" class="social-float instagram-float" target="_blank" aria-label="Instagram">📸</a>
+<a href="https://www.facebook.com/lamansiondepancho.oficial" class="social-float facebook-float" target="_blank" aria-label="Facebook">📘</a>
+
+<a href="https://wa.me/573227477464?text=Hola%20🐶💜%20vengo%20desde%20la%20página%20de%20La%20Mansión%20de%20Pancho%20y%20quisiera%20agendar%20un%20servicio%20de%20grooming%20a%20domicilio." class="whatsapp-float" target="_blank" aria-label="WhatsApp">💬</a>
 
 </body>
 </html>
